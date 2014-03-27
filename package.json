@@ -1,7 +1,7 @@
 {
   "name": "hubot-dynstatus",
   "description": "A hubot script to check the RSS feed at http://www.dynstatus.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
 
@@ -20,7 +20,8 @@
   },
 
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "nodepie": ">= 0.5.0"
   },
 
   "devDependencies": {
